@@ -1,0 +1,59 @@
+.hero {
+	width: 100%;
+	height: 100vh;
+	/* background: url('../../img/weddingcouple.jpg') center no-repeat; */
+	background: linear-gradient(
+			rgba(255, 248, 249, 0.3),
+			rgba(255, 255, 255, 0.1)
+		),
+		url(../../img/weddingcouple.jpg) center/cover no-repeat;
+	background-size: cover;
+}
+
+.hero::after {
+	/* content: ''; */
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.headline-container {
+	padding-top: 24vh;
+	padding-left: 50vw;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+	text-align: center;
+	color: #000;
+}
+
+.headline-container h1,
+.headline-container h2,
+.headline-container h3 {
+	padding: 0.5rem 0;
+}
+
+.headline {
+	font-family: var(--secondary-font);
+	font-size: 5.2rem;
+	letter-spacing: 0.62rem;
+}
+
+.sub-headline-text {
+	font-size: 1.6rem;
+	letter-spacing: 0.18rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.sub-headline-date {
+	font-size: 2.8rem;
+	letter-spacing: 0.28rem;
+}
+
+.blank {
+	height: 100vh;
+}
