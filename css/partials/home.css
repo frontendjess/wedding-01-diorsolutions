@@ -56,4 +56,27 @@
 
 .blank {
 	height: 100vh;
+	background-color: pink;
+}
+
+/* our story section */
+
+.our-story-container {
+	width: 65rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section-headline {
+	font-family: 'Parisienne', cursive;
+	font-size: 4.2rem;
+	letter-spacing: 0.22rem;
+}
+
+.pattern-divider {
+	max-width: 15rem;
+}
+
+.section-text {
+	padding: 2.4rem 0;
 }
