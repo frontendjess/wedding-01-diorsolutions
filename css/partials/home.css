@@ -69,7 +69,7 @@
 
 .section-headline {
 	font-family: 'Parisienne', cursive;
-	font-size: 4.2rem;
+	font-size: 5.2rem;
 	letter-spacing: 0.22rem;
 }
 
@@ -79,4 +79,76 @@
 
 .section-text {
 	padding: 2.4rem 0;
+}
+
+/* timeline */
+
+.timeline {
+	background-color: var(--light-bg-color);
+}
+
+.timeline-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.timeline-couple {
+	max-width: 50%;
+	display: block;
+	margin: 0 auto;
+	padding: 2.4rem 0;
+}
+
+.timeline-flex-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.timeline-flex-row {
+	display: flex;
+	/* flex-direction: column; */
+	width: 100%;
+}
+
+.timeline-flex-column {
+	width: 50%;
+	border: solid 1px blue;
+}
+
+.timeline-flex-column h3,
+.timeline-flex-column h4,
+.timeline-flex-column p {
+	padding: 0.5rem 0;
+}
+
+.timeline-column-left {
+	text-align: right;
+	padding: 2.4rem;
+}
+
+.timeline-column-right {
+	border-left: solid 1px var(--main-font-color-dark);
+	padding: 2.4rem;
+	text-align: left;
+}
+
+.timeline-sub-heading {
+	font-family: 'Parisienne', cursive;
+	font-size: 3.2rem;
+	letter-spacing: 0.16rem;
+}
+
+.timeline-sub-heading-img {
+	width: 30px;
+}
+
+.timeline-date {
+	font-size: 1.6rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.timeline-text {
+	line-height: 2.56rem;
 }
