@@ -113,12 +113,15 @@
 
 .timeline-flex-column {
 	width: 50%;
-	border: solid 1px blue;
+	/* border: solid 1px blue; */
 }
 
 .timeline-flex-column h3,
 .timeline-flex-column h4,
-.timeline-flex-column p {
+.timeline-flex-column p,
+.timeline-marriage-container h3,
+.timeline-marriage-container h4,
+.timeline-marriage p {
 	padding: 0.5rem 0;
 }
 
@@ -140,7 +143,7 @@
 }
 
 .timeline-sub-heading-img {
-	width: 30px;
+	width: 40px;
 }
 
 .timeline-date {
@@ -151,4 +154,82 @@
 
 .timeline-text {
 	line-height: 2.56rem;
+}
+
+.timeline-marriage-rings {
+	width: 60px;
+}
+
+/* events */
+.events-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.events-date-location-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2.4rem;
+}
+
+.events-date-location-col {
+	width: 33%;
+}
+
+.events-sub-heading {
+	font-family: 'Parisienne', cursive;
+	font-size: 5.6rem;
+	letter-spacing: 0.28rem;
+}
+
+.events-cake {
+	max-width: 25%;
+}
+
+.events-date-location-col h3,
+.events-date-location-col h4 {
+	padding: 1rem;
+}
+
+.events-text {
+	font-size: 1.6rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.wedding-events-sub-heading {
+	font-family: 'Parisienne', cursive;
+	font-size: 3.6rem;
+	letter-spacing: 0.18rem;
+	padding-top: 15rem;
+}
+
+.wedding-events-container {
+	display: flex;
+	padding-top: 2.4rem;
+}
+
+.wedding-events-col {
+	padding: 2.4rem;
+}
+
+.wedding-events-title {
+	font-family: 'Parisienne', cursive;
+	font-size: 2.8rem;
+	letter-spacing: 0.14rem;
+	padding: 2.4rem 0;
+}
+
+/* invitation */
+.invitation {
+	background: url('../../img/floral_bg.png') repeat;
+}
+.invitation-container {
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff;
+	padding: 2.4rem;
 }
