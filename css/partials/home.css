@@ -227,9 +227,48 @@
 	background: url('../../img/floral_bg.png') repeat;
 }
 .invitation-container {
-	width: 65%;
+	width: 55%;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #fff;
 	padding: 2.4rem;
+}
+
+.guest-details-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.2rem 0;
+}
+
+.guest-details-col {
+	text-align: left;
+	padding: 0 4.8rem;
+	border: solid 1px hotpink;
+	width: 50%;
+}
+
+.invitation-form label {
+	display: block;
+	padding: 0.25rem 0;
+}
+
+.invitation-form input {
+	padding: 1rem;
+	width: 100%;
+}
+
+.guest-details-checkbox-col {
+	text-align: left;
+}
+
+.guest-details-checkbox-col label {
+	display: inline-block;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.guest-details-checkbox-col input {
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
 }

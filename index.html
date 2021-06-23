@@ -191,7 +191,7 @@
 
 						<div class="wedding-events-col">
 							<img src="img/wedding-3.jpg" class="wedding-events-img" />
-							<h3 class="wedding-events-title">Cake Cutting</h3>
+							<h3 class="wedding-events-title">Reception & Cake Cutting</h3>
 							<h4 class="events-text">6:30 - 11 PM</h4>
 						</div>
 					</div>
@@ -209,7 +209,64 @@
 
 					<!-- form flexbox -->
 					<form class="invitation-form">
-						<div class="guest-details-container"></div>
+						<div class="guest-details-row">
+							<div class="guest-details-col">
+								<label for="fname">Full name</label><br />
+								<input type="text" id="name" name="name" /><br />
+							</div>
+							<div class="guest-details-col">
+								<label for="email">Email</label><br />
+								<input type="email" id="email" name="email" /><br />
+							</div>
+						</div>
+
+						<div class="guest-details-row">
+							<div class="guest-details-col">
+								<label for="numofguests">Number of guests</label><br />
+								<input
+									type="number"
+									id="numofguests"
+									name="numofguests"
+									min="1"
+									max="15"
+								/><br />
+							</div>
+							<div class="guest-details-col guest-details-checkbox-col">
+								<label>Events attendance</label><br />
+								<input
+									type="checkbox"
+									id="event1"
+									name="event1"
+									value="checkin"
+									class="events-checkbox"
+								/>
+								<label for="event1" class="events-checkbox">
+									Arrival & Check In</label
+								><br />
+								<input
+									type="checkbox"
+									id="event2"
+									name="event2"
+									value="weddingceremony"
+									class="events-checkbox"
+								/>
+								<label for="event2"> Wedding Ceremony</label>
+								<br />
+								<input
+									type="checkbox"
+									id="event3"
+									name="event3"
+									value="cakecutting"
+									class="events-checkbox"
+								/>
+
+								<label for="vehicle3" class="events-checkbox">
+									Reception & Cake Cutting</label
+								>
+							</div>
+						</div>
+
+						<div class="guest-meal-row"></div>
 					</form>
 				</div>
 			</div>
