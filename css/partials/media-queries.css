@@ -30,3 +30,11 @@
 		font-size: 1.6rem;
 	}
 }
+
+/* mobile version */
+@media screen and (max-width: 899px) {
+	/* gallery */
+	.gallery-grid-column {
+		flex: 100%;
+	}
+}

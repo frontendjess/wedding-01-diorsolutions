@@ -211,28 +211,47 @@
 					<form class="invitation-form">
 						<div class="guest-details-row">
 							<div class="guest-details-col">
-								<label for="fname">Full name</label><br />
-								<input type="text" id="name" name="name" /><br />
+								<label for="fname" class="invitation-form-label-block"
+									>Full name</label
+								><br />
+								<input
+									type="text"
+									id="name"
+									name="name"
+									class="invitation-form-input-fullwidth"
+								/><br />
 							</div>
 							<div class="guest-details-col">
-								<label for="email">Email</label><br />
-								<input type="email" id="email" name="email" /><br />
+								<label for="email" class="invitation-form-label-block"
+									>Email</label
+								><br />
+								<input
+									type="email"
+									id="email"
+									name="email"
+									class="invitation-form-input-fullwidth"
+								/><br />
 							</div>
 						</div>
 
 						<div class="guest-details-row">
 							<div class="guest-details-col">
-								<label for="numofguests">Number of guests</label><br />
+								<label for="numofguests" class="invitation-form-label-block"
+									>Number of guests</label
+								><br />
 								<input
 									type="number"
 									id="numofguests"
 									name="numofguests"
 									min="1"
 									max="15"
+									class="invitation-form-input-fullwidth"
 								/><br />
 							</div>
 							<div class="guest-details-col guest-details-checkbox-col">
-								<label>Events attendance</label><br />
+								<label class="invitation-form-label-block"
+									>Events attendance</label
+								><br />
 								<input
 									type="checkbox"
 									id="event1"
@@ -266,13 +285,98 @@
 							</div>
 						</div>
 
-						<div class="guest-meal-row"></div>
+						<div class="guest-meal-row">
+							<label class="invitation-form-label-block">Meal preferences</label
+							><br />
+							<input
+								type="radio"
+								id="anything"
+								name="meal-preference"
+								value="Anything"
+								class="radio"
+							/>
+							<label for="anything" class="radio-label">Anything</label>
+							<input
+								type="radio"
+								id="vegan"
+								name="meal-preference"
+								value="Vegan"
+								class="radio"
+							/>
+							<label for="vegan" class="radio-label">Vegan</label>
+							<input
+								type="radio"
+								id="vegetarian"
+								name="meal-preference"
+								value="Vegetarian"
+								class="radio"
+							/>
+							<label for="vegetarian" class="radio-label">Vegetarian</label>
+							<input
+								type="radio"
+								id="gluten-free"
+								name="meal-preference"
+								value="Gluten free"
+								class="radio"
+							/>
+							<label for="gluten-free" class="radio-label">Gluten free</label>
+						</div>
+
+						<div class="guest-meal-textarea">
+							<label for="meal-textarea" class="textarea-label"
+								>Please write the meal preferences for each additional
+								guest</label
+							>
+							<textarea name="meal-textarea" class="textarea-box"></textarea>
+						</div>
+
+						<div class="invitation-form-submit">
+							<input type="submit" value="CONFIRM" class="confirm-btn" />
+						</div>
 					</form>
 				</div>
 			</div>
 		</section>
 
-		<section class="blank"></section>
+		<div class="wedding-video">
+			<video class="wedding-video-mp4" autoplay loop="1" muted>
+				<source src="img/wedding-video.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			  </video>
+		</div>
+
+		<section class="gallery" id="gallery">
+			<div class="container">
+				<div class="gallery-container">
+					<h2 class="section-headline">Gallery</h2>
+					<img src="img/pattern-divider.png" class="pattern-divider" />
+					<p class="gallery-subheadline">Our wedding photoshoot taken place in Venice.</p>
+
+					<div class="gallery-grid-row">
+						<div class="gallery-grid-column">
+							<img src="img/gallery-img-1.png" class="gallery-img">
+							<img src="img/gallery-img-2.png" class="gallery-img">
+							<img src="img/gallery-img-3.png" class="gallery-img">
+							<img src="img/gallery-img-4.png" class="gallery-img">
+						</div>
+						<div class="gallery-grid-column">
+							<img src="img/gallery-img-5.png" class="gallery-img">
+							<img src="img/gallery-img-6.png" class="gallery-img">
+							<img src="img/gallery-img-7.png" class="gallery-img">
+							<img src="img/gallery-img-8.png" class="gallery-img">
+						</div>
+						<div class="gallery-grid-column">
+							<img src="img/gallery-img-9.png" class="gallery-img">
+							<img src="img/gallery-img-10.png" class="gallery-img">
+							<img src="img/gallery-img-11.png" class="gallery-img">
+							<img src="img/gallery-img-12.png" class="gallery-img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blank"></div>
 
 		<script src="js/main.js"></script>
 	</body>

@@ -113,7 +113,7 @@
 
 .timeline-flex-column {
 	width: 50%;
-	/* border: solid 1px blue; */
+	/* border: solid 1px red;: solid 1px blue; */
 }
 
 .timeline-flex-column h3,
@@ -231,7 +231,7 @@
 	margin: 0 auto;
 	text-align: center;
 	background-color: #fff;
-	padding: 2.4rem;
+	padding: 4.8rem 2.4rem;
 }
 
 .guest-details-row {
@@ -243,18 +243,25 @@
 .guest-details-col {
 	text-align: left;
 	padding: 0 4.8rem;
-	border: solid 1px hotpink;
 	width: 50%;
 }
 
-.invitation-form label {
+.guest-meal-row {
+	padding: 0 4.8rem;
+}
+
+.invitation-form-label-block {
 	display: block;
 	padding: 0.25rem 0;
 }
 
-.invitation-form input {
+.invitation-form-input-fullwidth {
 	padding: 1rem;
 	width: 100%;
+}
+
+.events-checkbox {
+	padding: 0.25rem 0;
 }
 
 .guest-details-checkbox-col {
@@ -271,4 +278,64 @@
 	display: inline-block;
 	width: 20%;
 	vertical-align: middle;
+}
+
+.radio-label {
+	padding: 1rem;
+}
+
+.guest-meal-textarea {
+	padding: 2.4rem 4.8rem;
+}
+
+.textarea-box {
+	width: 100%;
+	height: 12rem;
+	margin: 1.2rem 0;
+}
+
+.invitation-form-submit {
+	padding: 0 4.8rem;
+}
+
+.confirm-btn {
+	width: 100%;
+	padding: 2.4rem 4.8rem;
+	background-color: var(--main-font-color-dark);
+	color: #fff;
+	border: none;
+	font-size: 1.8rem;
+	font-weight: 600;
+	letter-spacing: 0.18rem;
+}
+
+/* wedding video */
+.wedding-video-mp4 {
+	width: 100%;
+}
+
+/* gallery */
+.gallery-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gallery-subheadline {
+	padding: 4.8rem 0;
+}
+
+.gallery-grid-row {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 2.4rem;
+}
+
+.gallery-grid-column {
+	flex: 31%;
+}
+
+.gallery-img {
+	vertical-align: middle;
+	width: 100%;
+	padding: 1.2rem 0;
 }
