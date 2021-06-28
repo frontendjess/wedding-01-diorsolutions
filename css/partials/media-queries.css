@@ -102,8 +102,18 @@
 	.invitation-form-label-block {
 		padding-top: 2.4rem;
 	}
+
 	/* gallery */
 	.gallery-grid-column {
 		flex: 100%;
+	}
+
+	/* registry */
+	.registry-container p {
+		width: 100%;
+	}
+
+	.registry-logo-col {
+		width: 100%;
 	}
 }

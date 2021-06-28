@@ -236,7 +236,7 @@
 .guest-details-row {
 	display: flex;
 	justify-content: space-between;
-	padding: 0rem 0;
+	padding: 1.2rem 0;
 }
 
 .guest-details-col {
@@ -351,9 +351,12 @@
 	line-height: 2.56rem;
 }
 
-/* display none */
-.wedding-video,
-.gallery,
-.registry {
-	display: none;
+.registry-logo-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.registry-logo-col {
+	width: 25%;
+	padding: 2.4rem;
 }
