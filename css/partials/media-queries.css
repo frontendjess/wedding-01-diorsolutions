@@ -33,6 +33,75 @@
 
 /* mobile version */
 @media screen and (max-width: 899px) {
+	/* hero headline */
+	.headline-container {
+		padding-top: 7vh;
+		padding-left: 5vw;
+	}
+	.headline {
+		font-size: 4.2rem;
+	}
+
+	.sub-headline-date {
+		font-size: 2rem;
+	}
+
+	/* our story */
+	.our-story-container {
+		width: 100%;
+	}
+
+	/* timeline */
+	.timeline-couple {
+		max-width: 100%;
+	}
+
+	/* events */
+	.events-date-location-container {
+		flex-direction: column;
+	}
+
+	.events-date-location-col {
+		width: 100%;
+	}
+
+	.cake-img-col {
+		padding: 2.4rem;
+	}
+
+	.wedding-events-container {
+		flex-direction: column;
+	}
+
+	/* invitation */
+	.invitation-container {
+		width: 100%;
+	}
+
+	.guest-details-row {
+		flex-direction: column;
+	}
+
+	.guest-details-col {
+		width: 100%;
+		padding: 0 1.2rem;
+	}
+
+	.guest-meal-row {
+		padding: 0 1.2rem;
+	}
+
+	.guest-details-row {
+		padding-bottom: 0;
+	}
+
+	.guest-meal-textarea {
+		padding: 2.4rem 1.2rem;
+	}
+
+	.invitation-form-label-block {
+		padding-top: 2.4rem;
+	}
 	/* gallery */
 	.gallery-grid-column {
 		flex: 100%;

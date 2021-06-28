@@ -57,7 +57,7 @@
 /* our story section */
 
 .our-story-container {
-	width: 65rem;
+	width: 62%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -236,7 +236,7 @@
 .guest-details-row {
 	display: flex;
 	justify-content: space-between;
-	padding: 1.2rem 0;
+	padding: 0rem 0;
 }
 
 .guest-details-col {
@@ -345,8 +345,15 @@
 }
 
 .registry-container p {
-	width: 65rem;
+	width: 62%;
 	margin: 0 auto;
 	text-align: center;
 	line-height: 2.56rem;
+}
+
+/* display none */
+.wedding-video,
+.gallery,
+.registry {
+	display: none;
 }
