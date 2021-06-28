@@ -54,11 +54,6 @@
 	letter-spacing: 0.28rem;
 }
 
-.blank {
-	height: 100vh;
-	background-color: pink;
-}
-
 /* our story section */
 
 .our-story-container {
@@ -79,6 +74,10 @@
 
 .section-text {
 	padding: 2.4rem 0;
+}
+
+.section-subheadline {
+	padding: 4.8rem 0;
 }
 
 /* timeline */
@@ -320,10 +319,6 @@
 	text-align: center;
 }
 
-.gallery-subheadline {
-	padding: 4.8rem 0;
-}
-
 .gallery-grid-row {
 	display: flex;
 	flex-wrap: wrap;
@@ -338,4 +333,20 @@
 	vertical-align: middle;
 	width: 100%;
 	padding: 1.2rem 0;
+}
+
+/* registry */
+.registry {
+	background-color: var(--light-bg-color);
+}
+.registry-container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.registry-container p {
+	width: 65rem;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2.56rem;
 }
