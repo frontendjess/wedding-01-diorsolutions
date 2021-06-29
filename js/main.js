@@ -16,3 +16,9 @@ const body = selectElement('body');
 menuToggler.addEventListener('click', function () {
 	body.classList.toggle('open');
 });
+
+// const navLink = selectElement('.nav-link');
+
+// navLink.addEventListener('click', function () {
+// 	body.classList.toggle('open');
+// });
