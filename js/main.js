@@ -17,8 +17,16 @@ menuToggler.addEventListener('click', function () {
 	body.classList.toggle('open');
 });
 
-const navLink = selectElement('.nav-link');
+// const navLink = selectElement('.nav-link');
 
-navLink.addEventListener('click', function () {
+// navLink.addEventListener('click', function () {
+// 	body.classList.toggle('open');
+// });
+
+// function refreshPage() {
+// 	window.location.reload();
+// }
+
+function closeMenu() {
 	body.classList.toggle('open');
-});
+}
