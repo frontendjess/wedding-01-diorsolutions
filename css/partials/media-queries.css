@@ -29,6 +29,10 @@
 	.nav-link {
 		font-size: 1.6rem;
 	}
+
+	.hero {
+		background-attachment: fixed;
+	}
 }
 
 /* mobile version */
