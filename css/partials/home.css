@@ -8,6 +8,7 @@
 		),
 		url(../../img/weddingcouple.jpg) center/cover no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .hero::after {
