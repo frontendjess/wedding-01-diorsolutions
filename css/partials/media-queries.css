@@ -4,6 +4,10 @@
 		padding: 7.9rem;
 	}
 
+	.mobile-nav-list {
+		display: none;
+	}
+
 	.menu-toggle {
 		display: none;
 	}
@@ -37,6 +41,9 @@
 
 /* mobile version */
 @media screen and (max-width: 899px) {
+	.desktop-nav-list {
+		display: none;
+	}
 	/* hero headline */
 	.headline-container {
 		padding-top: 7vh;
